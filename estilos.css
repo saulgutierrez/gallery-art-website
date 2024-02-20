@@ -517,12 +517,18 @@ address a {
 
     .inicio {
         flex-direction: column-reverse;
-        padding: 50px;
+        padding: 80px;
         gap: 20px;
+        padding-top: 150px;
     }
 
     .inicio__imagenes {
         gap: 20px;
+    }
+
+    .imagenes__imgbox {
+        width: 250px;
+        height: 280px;
     }
 
     .imagenes__imgbox:nth-child(1) {
@@ -531,11 +537,11 @@ address a {
     }
 
     .inicio__exposiciones h2 {
-        font-size: 2.5em;
+        font-size: 1.8em;
     }
 
     .titulo {
-        font-size: 3.5em;
+        font-size: 2.8em;
     }
 
     .cards {
@@ -544,6 +550,10 @@ address a {
 
     .cards__card {
         gap: 30px;
+    }
+
+    .btn {
+        font-size: 0.8em;
     }
 
     .descripcion__titulo {
@@ -591,6 +601,12 @@ address a {
 
     .inicio {
         padding: 20px;
+        padding-top: 80px;
+    }
+
+    .imagenes__imgbox {
+        width: 250px;
+        height: 300px;
     }
 
     .imagenes__imgbox:nth-child(2) {
@@ -602,13 +618,21 @@ address a {
         gap: 50px;
     }
 
-    .titulo {
-        font-size: 3em;
+    .inicio__exposiciones h2 {
+        font-size: 1.4em;
+    }
+
+    .inicio__exposiciones p {
+        font-size: 0.9em;
     }
 
     .cards__card.row-reverse,
     .cards__card {
         flex-direction: column-reverse;
+    }
+
+    .btn {
+        font-size: 0.8em;
     }
 
     .descripcion__titulo {
@@ -623,8 +647,12 @@ address a {
         padding: 20px;
     }
 
+    .nosotros__imagen {
+        width: 100%;
+    }
+
     .galeria__cards {
-        grid-template-columns: repeat(2, minmax(200px, 0fr));
+        grid-template-columns: repeat(1, minmax(200px, 0fr));
     }
 
     footer {
